@@ -24,7 +24,7 @@ def handle_events():
 def reset_world():
     global boy
 
-    grass = Grass()
+    grass = Grass(30)
     game_world.add_object(grass, 0)
 
     boy = Boy()
